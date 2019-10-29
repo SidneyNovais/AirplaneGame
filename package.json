@@ -1,0 +1,16 @@
+{
+  "name": "Airplane Game",
+  "version": "1.0.0",
+  "description": "Airplane Game",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --target es5 ./scripts/*.ts && browserify ./scripts/index.js -o bundle.js",
+    "bundle": "browserify ./scripts/index.js -o bundle.js"
+  },
+  "author": "Sidney Novais",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "typescript": "^3.6.4"
+  }
+}
